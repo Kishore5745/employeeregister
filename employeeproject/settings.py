@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-3^s6jf_#$@of28_8n+*d%ijdbdudrx6-&c=p@g34^*&avoqd@y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['EmployeeRegister.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -82,11 +82,10 @@ WSGI_APPLICATION = 'employeeproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'db4gb1l31600kd',
-        'USER' : 'ysafapliqyzrrc',
-        'PASSWORD':'9354276ffa4e9ea4b3b55ec8dc6568610fa424e6718e4db34674cf24397a90b4',
-        'HOST' : 'ec2-52-45-183-77.compute-1.amazonaws.com',
-        'PORT' : '5432',
+        'NAME': 'EmployeeDB',
+        'USER': 'postgres',
+        'PASSWORD': 'password',
+        'HOST': '127.0.0.1'
     }
 }
 
