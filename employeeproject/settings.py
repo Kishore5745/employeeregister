@@ -82,10 +82,11 @@ WSGI_APPLICATION = 'employeeproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'EmployeeDB',
-        'USER': 'postgres',
-        'PASSWORD': 'password',
-        'HOST': '127.0.0.1'
+        'NAME': 'dbp7pkrl9km94s',
+        'USER' : 'herzvtfncwpozu',
+        'PASSWORD':'42258d6500e9021a5d3dc4cdd2926e8550ad0c4080ea8fcfd03a30fff29950cf',
+        'HOST' : 'ec2-52-0-67-144.compute-1.amazonaws.com',
+        'PORT' : '5432',
     }
 }
 
